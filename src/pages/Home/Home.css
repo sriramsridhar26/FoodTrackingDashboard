@@ -1,0 +1,13 @@
+.welcome{
+    color: #2B3674;
+    margin-bottom: 2%;
+}
+.CardsView{
+    width: 90%; 
+    overflow: auto;
+    display: flex;
+ 
+}
+.CardsView::-webkit-scrollbar{
+    display: none;
+}

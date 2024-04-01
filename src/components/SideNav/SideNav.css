@@ -1,0 +1,95 @@
+@import '@fontsource/poppins';
+.sidenav {
+    height: 100vh;
+    width: 20vw;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: #232323; */
+    transition: .5s ease;
+    overflow-x: hidden;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidenavbox {
+    
+    position: relative;
+    z-index: 1;
+    height: 95%;
+    width: 90%;
+    
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px rgba(234, 215, 215, 0.63);
+    -webkit-box-shadow: 2px 1px 5px 9px rgba(234, 215, 215, 0.63);
+    -moz-box-shadow: 2px 1px 5px 9px rgba(234, 215, 215, 0.63);
+}
+.sidenavitems{
+    padding-top: 10%;
+    margin-left: 10%;
+    width:fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    /* align-items: center; */
+
+
+}
+.logo{
+    /* font-family: "Poppins"; */
+    /* font-weight: 800; */
+    color: #2B3674;
+    text-align: center;
+    margin-top: 20%;
+    font-style: bold;
+    margin-bottom: 20%;
+    border-radius: 50px;
+
+}
+
+
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    padding-left: 10px;
+    border-radius: 40px;
+    /* background-color: #f0f0f0; */
+    color: #2B3674;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    min-width: 150%;
+    /* text-align: left; */
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #ccc;
+    /* color: #4318ff; */
+}
+
+.custom-button:active {
+    animation: click-animation 0.2s ease;
+}
+
+@keyframes click-animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

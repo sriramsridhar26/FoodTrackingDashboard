@@ -1,0 +1,47 @@
+.card {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 1%;
+    border-color: #2B3674;
+    border-width: 2px;
+    margin: 1%;
+    
+}
+
+.card:hover {
+    transition: .5s ease;
+    border-color: #2B3674;
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.75);
+}
+
+.round-button {
+    margin-left: 20%;
+    margin-top: 15%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #0077B5; /* Meta's blue color for the border */
+    color: #0077B5; /* Meta's blue color for the text */
+    text-align: center;
+    line-height: 35px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.round-button:hover {
+    background-color: #0077B5; /* Fill with Meta's blue color on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+.cardheading{
+    margin-bottom: 1%;
+}
+.cardsubheading{
+    font-size: small;
+    margin-top: 1%;
+}

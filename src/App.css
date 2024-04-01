@@ -1,0 +1,22 @@
+.grid{
+    display: grid;
+    grid-template-columns: "sidebar" "main";
+    grid-gap: 20px;
+}
+
+.sidenav{
+    grid-area: sidebar;
+    width: 20vw;
+}
+.app{
+    grid-area: main;
+    width: 80vw;
+}
+
+@media (min-width: 640px){
+    .grid {
+        grid-template-columns: 2fr 4fr;
+        grid-template-areas: 
+        "sidebar main";
+    }
+}

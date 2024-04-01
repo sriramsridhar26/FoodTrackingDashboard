@@ -1,0 +1,64 @@
+.TransitDetails{
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    max-height: 85vh;
+}
+.pie {
+    width: 93%;
+    height: 95%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 5px 0px #000000;
+    box-shadow: 0px 1px 5px 0px #000000;
+    margin-left: 1%;
+    padding: 2%;
+}
+
+.donut {
+    position: relative;
+    width: 93%;
+    height: 95%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 5px 0px #000000;
+    box-shadow: 0px 1px 5px 0px #000000;
+    margin-left: 1%;
+    padding: 2%;
+}
+.totals{
+    border-bottom: solid 0.05rem grey;
+}
+
+.totals h2{
+    margin-top: 1%;
+    margin-bottom: 0.5%
+}
+.totals p{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%
+}
+.table{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 5px 0px #000000;
+    box-shadow: 0px 1px 5px 0px #000000;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 1%;
+}
+.table p{
+    font-weight:bolder;
+    margin-bottom: 0;
+}
+th{
+    padding-top: 0;
+}
+.span{
+    height: 10px;
+    width: 100%;
+}
+.dummyintransdet{
+    height: 10px;
+}
